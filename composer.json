@@ -1,0 +1,30 @@
+{
+    "name" : "movent/profilerbundle",
+    "description" : "Profiler Bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Andrew Aculana",
+        "email" : "andrew.aculana@movent.com"
+    }],
+    "keywords" : [
+        "movent profiler bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Movent\\ProfilerBundle" : ""
+        }
+    },
+    "target-dir" : "Movent/ProfilerBundle",
+    "repositories" : [{
+    ],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "1.0-dev"
+        }
+    }
+}
