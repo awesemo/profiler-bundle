@@ -6,6 +6,9 @@ use Symfony\Component\Security\Core\Util\SecureRandom;
 
 class DefaultProfile implements ProfileInterface
 {
+	/**
+	 * @var string
+	 */
 	protected $id;
 	protected $hasEmail;
 	protected $categories;
